@@ -1,0 +1,35 @@
+.first-step.container,
+.second-step.container {
+  margin-top: 36px;
+}
+
+.first-step-reg,
+.second-step-reg {
+  grid-column: 4 / span 6;
+}
+
+.input-product input,
+.category-select {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid var(--primary-0);
+  color: var(--neutral-2);
+  border-radius: 16px;
+  height: 51px;
+  margin-top: 15px;
+  padding-left: 14px;
+}
+
+#next-step,
+#product-reg {
+  margin-top: 15px;
+}
+
+.product-img {
+  background-color: var(--neutral-6);
+  border-radius: 16px;
+  border: 1px solid var(--primary-1);
+  padding: 100px;
+  text-align: center;
+}

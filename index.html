@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Itacolomi</title>
+    <link rel="icon" type="image/x-icon" href="img/LOGO.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <img src="img/LOGO.svg" alt="Logotipo do restaurante Itacolomi" />
+        <p class="title-1">Olá, Thaís!</p>
+        <div class="btn-exit">
+          <a href="#">
+            <img class="exit" src="/img/ic_exit.svg" alt="Ícone de logout" />
+          </a>
+          <a href="#">Sair</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav-bg">
+      <div class="nav container">
+        <button id="sobremesas" class="btn-tertiary text-btn">
+          Sobremesas
+        </button>
+        <button id="bebidas" class="btn-tertiary text-btn">Bebidas</button>
+        <button id="prato-completo" class="btn-tertiary text-btn">
+          Prato completo
+        </button>
+        <button id="promocoes" class="btn-tertiary text-btn">Promoções</button>
+      </div>
+    </nav>
+
+    <div class="search-bg">
+      <div class="search container">
+        <div class="txt-products">
+          <img src="img/ic_produtos.svg" alt="Ícone de sacola de compras" />
+          <label for="texto" class="paragraph-1">Produtos cadastrados</label>
+        </div>
+
+        <div class="search-bar">
+          <img src="img/ic_busca.svg" alt="Ícone de busca" />
+          <input
+            type="text"
+            placeholder="Buscar na categoria"
+            class="paragraph-1"
+          />
+        </div>
+
+        <div class="search-order-price">
+          <select class="select-order-price paragraph-1">
+            <option value="ordernar-por">Ordenar por (1)</option>
+            <option value="maior-preco">Maior preço</option>
+            <option value="menor-preco">Menor preço</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <main class="main-bg">
+      <div class="new-product container">
+        <img src="img/ic_leaf.svg" alt="ícone de folhas" />
+        <p class="subtitle-2 primary-1">
+          Ops! <br />
+          Nenhum produto encontrado
+        </p>
+        <p class="subtitle-2 neutral-0">
+          Cadastre o seu primeiro produto <br />
+          e comece a vender agora mesmo
+        </p>
+        <a href="cadastro-produtos.html"
+          ><button class="btn-primary text-btn">Cadastrar produtos</button>
+        </a>
+      </div>
+
+      <!-- <div class="product-list container">
+        <div class="product-card">
+          <div class="product-img">
+            <img
+              src="img/salada-polvo.jpg"
+              alt="Imagem de uma salada de polvo"
+            />
+          </div>
+          <div class="product-info">
+            <h1 class="title paragraph-1 primary-1">Salada de polvo</h1>
+            <p class="value paragraph-1 primary-0">Serve 1 pessoa</p>
+            <p class="description paragraph-1 neutral-2">
+              Polvo fresco com legumes refogados (cenoura, cebola, pimentão,
+              grão de bico e pepino)
+            </p>
+            <p class="price paragraph-1 secondary-0">R$ 150,90</p>
+          </div>
+          <div class="product-config">
+            <button id="btn-edit">
+              <img src="img/ic_edit.svg" alt="ícone de edição" />
+              Editar
+            </button>
+            <button id="btn-del">
+              <img src="img/ic_delete.svg" alt="ícone de exclusão" /> Excluir
+            </button>
+          </div>
+        </div>
+      </div> -->
+    </main>
+
+    <footer class="footer-bg">
+      <div class="footer container">
+        <p class="paragraph-1 neutral-2">
+          2022 | Usemobile. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

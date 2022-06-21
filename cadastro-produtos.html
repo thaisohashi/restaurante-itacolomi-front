@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Itacolomi</title>
+    <link rel="icon" type="image/x-icon" href="img/LOGO.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <img src="img/LOGO.svg" alt="Logotipo do restaurante Itacolomi" />
+        <p class="title-1">Olá, Thaís!</p>
+        <div class="btn-exit">
+          <a href="#">
+            <img class="exit" src="/img/ic_exit.svg" alt="Ícone de logout" />
+          </a>
+          <a href="#">Sair</a>
+        </div>
+      </div>
+    </header>
+
+    <form method="get">
+      <div class="first-step container">
+        <div class="first-step-reg">
+          <div class="title-form">
+            <img src="img/ic_produtos.svg" alt="Ícone de sacola de compras" />
+            <label for="texto" class="subtitle-1">Cadastrar novo produto</label>
+          </div>
+          <p class="caption-1">Etapa 1 de 2</p>
+
+          <div class="input-product">
+            <input
+              type="text"
+              id="product-name"
+              placeholder="Nome do produto"
+            />
+            <input
+              type="text"
+              id="product-description"
+              placeholder="Descrição"
+            />
+            <input type="number" id="product-price" placeholder="Valor (R$)" />
+          </div>
+
+          <select class="category-select" id="selectCategory">
+            <option value="categoria">Categoria</option>
+            <option value="sobremesas">Prato completo</option>
+            <option value="bebidas">Sobremesa</option>
+            <option value="prato-completp">Bebida</option>
+            <option value="promocoes">Acompanhamento</option>
+          </select>
+
+          <div class="checkbox-value">
+            <p class="paragraph-1">Para quantas pessoas?</p>
+            <div class="inputRadio">
+              <input type="radio" id="onePerson" value="1" />
+              <label for="onePerson">Serve 1 pessoa</label>
+            </div>
+            <div class="inputRadio">
+              <input type="radio" id="twoPeople" value="2" />
+              <label for="twoPeople">Serve 2 pessoas</label>
+            </div>
+
+            <div class="inputRadio">
+              <input type="radio" id="family" value="4" />
+              <label for="family">Família - até 4 pessoas</label>
+            </div>
+          </div>
+
+          <div class="checkbox-disponibility">
+            <p class="paragraph-1">Disponiblidade do produto para o público:</p>
+            <div class="inputRadio">
+              <input type="radio" id="product-available" />
+              <label for="product-available">Produto disponível</label>
+            </div>
+            <div class="inputRadio">
+              <input type="radio" id="product-unavailable" />
+              <label for="product-unavailable">Produto indisponível</label>
+            </div>
+          </div>
+          <button class="btn-primary" type="submit" id="next-step">
+            Próximo
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="second-step container">
+        <div class="second-step-reg">
+          <div class="title-form">
+            <img src="img/ic_produtos.svg" alt="Ícone de sacola de compras" />
+            <label for="texto" class="subtitle-1">Cadastrar novo produto</label>
+          </div>
+          <p class="caption-1">Etapa 2 de 2</p>
+          <p class="paragraph-1 primary-1">Selecione a foto do produto</p>
+          <div class="product-img">
+            <img
+              src="img/ic_upload.svg"
+              alt="Espaço para inserir uma imagem do produto"
+            />
+            <p class="paragraph-1 neutral-1">Anexar foto do produto</p>
+            <p class="paragraph-1 neutral-1">
+              Se preferir arraste e solte a foto
+            </p>
+          </div>
+          <button class="btn-primary" type="submit" id="product-reg">
+            Cadastrar produto
+          </button>
+        </div>
+      </div> -->
+    </form>
+
+    <footer class="footer-bg">
+      <div class="footer container">
+        <p class="paragraph-1 neutral-2">
+          2022 | Usemobile. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

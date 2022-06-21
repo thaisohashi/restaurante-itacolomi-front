@@ -1,0 +1,19 @@
+.nav-bg {
+  margin-top: 36px;
+}
+
+nav #sobremesas {
+  grid-column: 1 / span 3;
+}
+
+nav #bebidas {
+  grid-column: 4 / span 3;
+}
+
+nav #prato-completo {
+  grid-column: 7 / span 3;
+}
+
+nav #promocoes {
+  grid-column: 10 / span 3;
+}

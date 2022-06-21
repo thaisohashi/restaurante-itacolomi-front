@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.title-1 {
+  font: normal 400 20px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle-1 {
+  font: normal 600 17px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle-2 {
+  font: normal 350 17px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph-1 {
+  font: normal 400 17px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-btn {
+  font: normal 600 17px "Montserrat", sans-serif;
+}
+
+.caption-1 {
+  font: normal 400 12px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

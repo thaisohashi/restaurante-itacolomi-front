@@ -1,0 +1,17 @@
+/* global */
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/global.css";
+
+/* utilities */
+@import "./utilities/components.css";
+@import "./utilities/typography.css";
+@import "./utilities/colors.css";
+
+/* home */
+@import "./home/nav.css";
+@import "./home/search.css";
+@import "./home/main.css";
+
+/* cadastro-produtos */
+@import "./cadastro-produtos/cadastro-produtos.css";

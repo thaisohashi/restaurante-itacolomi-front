@@ -1,0 +1,50 @@
+:root {
+  /* Brand-colors */
+  --primary-0: #f29c46;
+  --primary-1: #c14d19;
+  --secondary-0: #72bc54;
+
+  /* Neutral-colors */
+  --neutral-0: #262626;
+  --neutral-1: #292929;
+  --neutral-2: #666666;
+  --neutral-3: #a3a3a3;
+  --neutral-4: #cccccc;
+  --neutral-5: #e0e0e0;
+  --neutral-6: #f5f5f5;
+  --neutral-7: #ffffff;
+}
+
+.primary-0 {
+  color: var(--primary-0);
+}
+.primary-1 {
+  color: var(--primary-1);
+}
+.secondary-0 {
+  color: var(--secondary-0);
+}
+.neutral-0 {
+  color: var(--neutral-0);
+}
+.neutral-1 {
+  color: var(--neutral-1);
+}
+.neutral-2 {
+  color: var(--neutral-2);
+}
+.neutral-3 {
+  color: var(--neutral-3);
+}
+.neutral-4 {
+  color: var(--neutral-4);
+}
+.neutral-5 {
+  color: var(--neutral-5);
+}
+.neutral-6 {
+  color: var(--neutral-6);
+}
+.neutral-7 {
+  color: var(--neutral-7);
+}
